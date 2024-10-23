@@ -1,0 +1,54 @@
+@import '/style/style.css';
+
+.modal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contenido-modal {
+    position: relative;
+}
+.contenedor-imagen-juego {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.imagen-juego {
+   width: 100%
+}
+.contenedor-icono {
+    position: relative;
+}
+.icono {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 1px;
+    opacity: 85%;
+}
+.icono-winner-left {
+    fill: var(--orange); 
+    left: -10px;
+}
+.icono-winner-right {
+    fill: var(--orange);
+    right: 10px;
+}
+.icono-loser-left {
+    fill: var(--bleu);
+    left: -10px;
+}
+.icono-loser-right {
+    fill: var(--bleu);
+    right: 10px;
+}
+.caja-personajes-usados{
+    opacity: 50%;
+    pointer-events: none;
+}
+#contadorPartidas{
+    margin: 0 2rem;
+    font-size: 18px;
+    color: var(--orange);
+}
